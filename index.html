@@ -24,9 +24,9 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto text-center">
           <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
-          <a class="nav-link" href="#">Los oradores</a>
+          <a class="nav-link" href="#conocerOradores">Los oradores</a>
           <a class="nav-link" href="#">Lugar y Fecha</a>
-          <a class="nav-link" href="#">Conviertete en orador</a>
+          <a class="nav-link" href="#convertirseOrador">Conviertete en orador</a>
           <a class="nav-link" href="#">Comprar tickets</a>
         </div>
       </div>
@@ -53,7 +53,7 @@
   </div>
 
   <!-- Conoce a los oradores - Cards -->
-  <div class="container my-5">
+  <div class="container my-5" id="conocerOradores">
     <h5 class="text-center mt-3 mb-0">CONOCE A LOS</h3>
       <h2 class="text-center">ORADORES</h1>
 
@@ -116,22 +116,52 @@
           es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al
           área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una
           ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie.</p>
-          <button type="button" class="btn btn btn-outline-dark m-2">Conocé más</button>
-        </div>
+        <button type="button" class="btn btn btn-outline-dark m-2">Conocé más</button>
+      </div>
     </div>
   </div>
-  
+
+  <!-- Formulario - Conoce a los Oradores -->
+  <div class="container my-5" id="convertirseOrador">
+    <h5 class="text-center mt-3 mb-0">CONVIERTETE EN UN</h3>
+      <h2 class="text-center">ORADOR</h1>
+        <H5 class="text-center mb-3 textResponsive">Anotate como orador para dar una charla ignite. Contanos de qué queres hablar!</H5>
+
+        <form class="form">
+          <div class="mb-3 row">
+            <div class="col-12 col-md-6 mb-3">
+              <input type="text" class="me-3 w-100" placeholder="Nombre" id="nombre">
+            </div>
+            <div class="col-12 col-md-6">
+              <input type="text" class="me-3 w-100" placeholder="Nombre" id="nombre">
+            </div>
+          </div>
+
+          <div class="mb-3 w-100">
+            <textarea name="textarea" rows="5" class="w-100 textarea" placeholder="Sobre que queres hablar?"></textarea>
+            <div id="apellido" class="form-text">Recordá incluir un título para tu charla</div>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary ">Submit</button>
+          </div>
+        </form>
+
+
+
+  </div>
+
   <!-- Aqui escribimos el Footer -->
   <Footer>
-<div class="container-fluid footer my-2 py-3 d-flex flex-column flex-md-row justify-content-around align-items-center">
-  <p>Preguntas frecuentes</p>
-  <p>Contactanos</p>
-  <p>Prensa</p>
-  <p>Conferencias</p>
-  <p>Terminos y condiciones</p>
-  <p>Privacidad</p>
-  <p>Estudiantes</p>
-</div>
+    <div
+      class="container-fluid footer my-2 py-3 d-flex flex-column flex-md-row justify-content-around align-items-center">
+      <p>Preguntas frecuentes</p>
+      <p>Contactanos</p>
+      <p>Prensa</p>
+      <p>Conferencias</p>
+      <p>Terminos y condiciones</p>
+      <p>Privacidad</p>
+      <p>Estudiantes</p>
+    </div>
   </Footer>
 
 
