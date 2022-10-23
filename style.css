@@ -56,6 +56,13 @@ background-color: #fafafa;
 width: 200px;
 }
 
+
+.row{
+    display: grid;
+    row-gap: 1rem;
+}
+
+
 .footer {
     background-image: linear-gradient(to right, #004d7a, #008793);
 }
